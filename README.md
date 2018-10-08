@@ -8,7 +8,7 @@ services:
   logger:
     image: rednik/log4j2-tcpsocketserver
     networks:
-              - app_net
+              - appnet
     deploy:
               replicas: 1
     volumes:
