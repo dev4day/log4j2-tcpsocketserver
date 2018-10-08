@@ -2,6 +2,7 @@
 
 ##Using in docker-compose
 
+```docker-compose
 version: "3.2"
 services:
   logger:
@@ -14,5 +15,6 @@ services:
               - ./log/logger:/log
               - ./config:/config
     command: ["/config/log4j2.xml"]
+```
 
 Service will be available on port 12345.
