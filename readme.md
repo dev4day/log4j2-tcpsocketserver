@@ -1,6 +1,6 @@
-#log4j 2 TCP socket server#
+#log4j 2 TCP socket server
 
-##Using in docker-compose##
+##Using in docker-compose
 
 version: "3.2"
 services:
