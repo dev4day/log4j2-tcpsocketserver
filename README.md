@@ -1,6 +1,6 @@
-#log4j 2 TCP socket server
+# log4j 2 TCP socket server
 
-##Using in docker-compose
+## Using in docker-compose
 
 ```docker-compose
 version: "3.2"
@@ -17,4 +17,4 @@ services:
     command: ["/config/log4j2.xml"]
 ```
 
-Service will be available on port 12345.
+Service will be available on port **12345**.
